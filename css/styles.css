@@ -1,0 +1,746 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+body {
+  background-color: black;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#ffcd05;
+}
+p {
+  color:#ffcd05;
+  font-family: haboro-contrast-normal, sans-serif;
+  font-style: italic;
+
+}
+
+
+.container {
+  left-padding:20px;
+  right-padding:20px;
+
+}
+
+table, th, td {
+  font-size: 28px;
+  border:1px solid #ffcd05;
+  color:#ffcd05;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#letterHeight {
+  font-stretch: 12px;
+}
+
+.topnav {
+  width: 100%;
+  color: #ffcd05;
+  background-color: #221f1f;
+  overflow: auto;
+}
+
+.topnav a {
+  width:20%;
+  float: left;
+  color: #ffcd05;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+}
+.topnav a:link {
+  color:#ffcd05;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color: #ffcd05;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+.footer {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.footer a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  table, th, td {
+    font-size: 28px;
+    border:1px solid #ffcd05;
+    color:#ffcd05;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tableAdjust {
+    width:75%;
+    word-wrap: break-word;
+  }
+
+
+
+}
+
+#haboroHeader {
+  text-align: center;
+  color: #ffcd05;
+  background-color:#231f20;
+  width: 300px;
+  margin:auto;
+  padding: 5px;
+}
+
+.rcorners3 {
+  font-size: 45px;
+  padding: auto;
+  width: 75%;
+  height: 350px;
+  margin:auto;
+  font-family: haboro-contrast-normal, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+.rcorners32 {
+  font-size: 45px;
+  padding: auto;
+  width: 75%;
+  height: 350px;
+  margin-top:-5px;
+  font-family: haboro-contrast-normal, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+
+.fontCenter {
+  text-align: center;
+}
+
+
+.ashBox {
+  background-color:#231f20;
+}
+
+.letters {
+    color:#ffcd05;
+    position:relative;
+
+}
+
+#displayHeader {
+  text-align: center;
+}
+
+
+.fontBodyBox {
+  overflow-wrap: break-word;
+  border-radius: 25px;
+  background-color:#979797;
+  padding: auto;
+  height: auto;
+  margin:15px;
+}
+
+#hNormParagraph {
+  font-family: haboro-contrast-normal, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  overflow-wrap: break-word;
+
+}
+
+#hCondItParagraph {
+  font-family: haboro-contrast-condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  overflow-wrap: break-word;
+
+}
+
+#hExtThinParagraph {
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.gentleEdit {
+  font-size:40px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.yetEdit {
+  font-size:40px;
+  font-family: haboro-contrast-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.confidentEdit {
+  font-size: 40px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+div.a {
+  text-indent: 50px;
+
+}
+
+div.b {
+  text-indent: 100px;
+}
+
+div.c {
+  text-indent: 150px;
+}
+
+div.d {
+  text-indent: 200px;
+  display: inline;
+}
+
+div.e {
+  text-indent: 250px;
+}
+
+div.f {
+  text-indent: 225px;
+}
+
+div.g {
+  text-indent: 350px;
+}
+
+.demonstrateP {
+  font-size:51px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.eleganceP {
+  font-size:70px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.iParagraph {
+  font-size:48px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#haboroParagraph {
+  display: inline;
+  font-size:56px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#haboroParagraphTwo {
+  display: inline;
+  font-size:56px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#asParagraph {
+  display: inline;
+  font-size:56px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+div.gentle {
+  font-size:55px;
+  font-family: haboro-contrast-extended, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+div.yet {
+  font-size:56px;
+  font-family: haboro-contrast-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+div.confident {
+  font-size: 56px;
+  font-family: haboro-contrast-extended, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+{
+ box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+ float: left;
+ width: 33.33%;
+ padding: 15px;
+ height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+@media (min-width: 350px)   {
+
+
+
+  .curved-text{
+  position:relative;
+  display:inline-block;
+  margin:0 auto;
+  font-size:100px;
+}
+
+.curved-text span{
+  min-width:0.5em;
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+
+  .gentleEdit {
+    font-size:35px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .yetEdit {
+    font-size:35px;
+    font-family: haboro-contrast-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .confidentEdit {
+    font-size: 35px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+.lycanTag2 {
+    font-family: haboro-contrast-condensed, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    word-wrap: break-word;
+    font-size:90px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+
+  .doubleTag2 {
+    font-family: haboro-contrast-extended, sans-serif;
+    word-wrap: break-word;
+    font-size:120px;
+    font-weight:lighter;
+    font-style: italic;
+    font-size:140px;
+    letter-spacing: -27px;
+  }
+
+  .subvocalizedTag2{
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:140px;
+    letter-spacing: -13px;
+    word-wrap: break-word;
+  }
+
+  .hemaTag2 {
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:45px;
+    letter-spacing: 20px;
+    line-height: 120px;
+    transform: skewY(20deg);
+
+
+
+  }
+
+  .multiTag2 {
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 2000;
+    font-style: normal;
+    font-size:90px;
+    word-wrap:break-word;
+    transform: scaleX(1.5);
+    transform: scaley(1.5);
+
+
+
+  }
+}
+
+
+@media (min-width: 600px)   {
+
+
+  table, th, td {
+    font-size: 50px;
+    border:1px solid #ffcd05;
+    color:#ffcd05;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  div.a1 {
+    text-indent: 50px;
+
+  }
+
+  div.b {
+    text-indent: 100px;
+  }
+
+  div.c2 {
+    text-indent: 150px;
+  }
+
+  div.d {
+    text-indent: 200px;
+    display: inline;
+  }
+
+  div.e {
+    text-indent: 250px;
+  }
+
+  div.f {
+    text-indent: 225px;
+  }
+
+  .letters {
+      color:#ffcd05;
+      margin:75px;
+      position:relative;
+
+  }
+
+  .demonstrateP {
+    font-size:51px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .eleganceP {
+    font-size:70px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lycanTag2 {
+      font-family: haboro-contrast-condensed, sans-serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size:70px;
+      margin-top: -5px;
+      margin-bottom: -5px;
+    }
+
+    .doubleTag2 {
+      font-family: haboro-contrast-extended, sans-serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size:150px;
+      letter-spacing: -12px;
+    }
+
+    .subvocalizedTag2{
+      font-family: haboro-contrast-normal, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size:70px;
+    }
+
+    .hemaTag2 {
+      font-family: haboro-contrast-extended, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size:75px;
+    }
+
+    .multiTag2 {
+      font-family: haboro-contrast-normal, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      font-size:70px;
+
+    }
+}
+
+@media (min-width: 950px)   {
+
+  .demonstrateP {
+    font-size:51px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .eleganceP {
+    font-size:70px;
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lycanTag2 {
+      font-family: haboro-contrast-condensed, sans-serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size:170px;
+      margin-top: -5px;
+      margin-bottom: -5px;
+    }
+
+    .doubleTag2 {
+      font-family: haboro-contrast-extended, sans-serif;
+      font-weight: 200;
+      font-style: italic;
+      font-size:300px;
+      letter-spacing: -12px;
+    }
+
+    .subvocalizedTag2{
+      font-family: haboro-contrast-normal, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size:170px;
+    }
+
+    .hemaTag2 {
+      font-family: haboro-contrast-extended, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size:175px;
+    }
+
+    .multiTag2 {
+      font-family: haboro-contrast-normal, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      font-size:70px;
+
+    }
+
+  .letters {
+      color:#ffcd05;
+      margin:20px;
+      position:relative;
+
+  }
+
+  td {
+    font-size: 70px;
+  }
+  #haboroSkew {
+    transform: skewY(20deg);
+  }
+  #haboroSkewDemon {
+    transform: skewY(-10deg);
+  }
+  #haboroEleg {
+    font-size: 80px;
+    letter-spacing: 60px;
+  }
+
+
+  div.a {
+    text-indent: 500px;
+    font-size:36px;
+  }
+
+  div.b {
+    text-indent: 400px;
+    font-size:36px;
+
+  }
+
+  div.d {
+    font-size:45px;
+    transform: skewY(20deg);
+
+  }
+
+  div.c {
+    text-indent: 500px;
+    font-size:36px;
+
+  }
+
+
+
+
+  .lycanTag {
+    font-family: haboro-contrast-condensed, sans-serif;
+    letter-spacing: -15px;
+    font-weight: 900;
+    font-style: italic;
+    font-size:180px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+
+  .doubleTag {
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size:120px;
+    letter-spacing: 12px;
+
+  }
+
+  .subvocalizedTag{
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:120px;
+  }
+
+  .hemaTag {
+    font-family: haboro-contrast-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:120px;
+  }
+
+  .multiTag {
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:120px;
+
+  }
+
+  .rcorners3 {
+    background-color:#none;
+    color:#ffcd05;
+    font-size: 60px;
+    padding: auto;
+    margin:auto;
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    overflow-wrap: break-word;
+  }
+
+  .largeIntro {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .largeParagraphs {
+    font-size: 34px;
+  }
+
+  .columnLarge {
+   float: left;
+   width: 50%;
+   padding: 5px;
+   height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .rowLarge:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+
+}
+
+​
